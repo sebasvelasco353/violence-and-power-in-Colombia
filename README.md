@@ -1,6 +1,6 @@
-#violence-and-power-in-Colombia
+# violence and power in Colombia
 
-##links usados en este proyecto
+## links usados en este proyecto
 * https://monitor.umaic.org/
 * https://www.humanitarianresponse.info/es/operations/colombia
 * http://apoyo.un-ocha.org/kayako/index.php?/Knowledgebase/List/Index/25/monitor
@@ -11,3 +11,4 @@
 * http://freegisdata.org/place/48607/
 * http://datosabiertos.esri.co/
 * https://www.youtube.com/watch?v=OArXwxsUfDg&feature=youtu.be
+* https://newrepublic.com/article/149185/colombia-keeps-electing-presidents-tied-murderers
