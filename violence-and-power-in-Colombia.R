@@ -36,5 +36,5 @@ waffle(violenciaDepartamental2008Normaliced, rows=10,
        "#456173","#c24a4a","#e8e8e8","#E4D167","#CA496A","#887CA3","#655D79", "#020202",
        "#F2DDCA","#E2CFBE","#A1C1B4","#619D91","#2F363E","#A9CCE8","#4985B7", "#00407D",
        "#2F363E","#3271A4","#FFD318","#F73F61","#A2356F","#542985","#648E78", "#8EECE2"), 
-       legend_pos="bottom", size = 1, title="Reparticion del total masacres entre los departamentos")
+       legend_pos="bottom", size = 1, title="Reparticion del total masacres entre los departamentos durante el 2008")
 
