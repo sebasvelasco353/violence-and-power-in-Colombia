@@ -15,8 +15,15 @@ violencia2016 <- read.csv(file="monitor-eventos-2016-violencia.csv", header=TRUE
 violencia2017 <- read.csv(file="monitor-eventos-2017-violencia.csv", header=TRUE)
 violencia2018 <- read.csv(file="monitor-eventos-2018-violencia.csv", header=TRUE)
 
-#count number of violent acts on antioquia
+#count number of violent acts
 violenciaDepartamental2008 <- count(violencia2008, 'Departamento')
-#chart
-ggplot(data=violenciaDepartamental2008, aes(x=Departamento, y=freq)) +
-  geom_bar(stat="identity")
+
+#reOrder the table
+violenciaDepartamental2008$Departamento<-reorder(violenciaDepartamental2008$Departamento,-violenciaDepartamental2008$freq)
+class(violenciaDepartamental2008)
+
+# bar chart of number of violent war crimes by dptment during 2008
+ggplot(data=violenciaDepartamental2008,aes(x=Departamento, y=freq))+
+  geom_bar(stat="identity")+
+  theme(axis.text.x=element_text(angle=90,hjust=1,vjust=0.5))
+
